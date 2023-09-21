@@ -1,0 +1,32 @@
+{
+    "section1": {
+        "años": "22 Años",
+        "añosEscribiendo": "2 Programando"
+    },
+    "section2":{
+        "miPresente":"Mi presente",
+        "haciendoEsto":"¡Actualmente estoy haciendo esto!",
+        "Estudiando":"Estudiando",
+        "parrafoEstudiando1":"Estoy cursando el 3er año de la Licenciatura en Sistemas realizada en la Universidad General Sarmiento",
+        "parrafoEstudiando2":"Actualmente estoy realizando un curso de UX para la empresa Google en el cual tengo un promedio de 8.8",
+        "parrafoEstudiando3":"Uno de mis principales hobbies y objetivos es practicar el desarrollo web FrontEnd.",
+        "botonVerMas":"Conoceme"
+    },
+    "section3":{
+        "tituloHabilidades":"habilidades"
+    },
+    "section4":{
+        "tituloMisUltimosProyectos":"MIS ÚLTIMOS PROYECTOS",
+        "tituloProyecto1":"Loteria",
+        "tituloProyecto2":"Tabla Dinamica",
+        "tituloProyecto3":"Formulario de inicio de sesión",
+        "tituloProyecto4":"Planes de precios",
+        "descripcionProyecto1":"Página responsive desarrollada con HTML, CSS y JAVASCRIPT con la intención de simular una plataforma de lotería,Incluye una pequeña guía para mejorar tus posibilidades de ganar, y además cuenta con un sistemapara ingresar números e intentar ganar acertando todos los números.",
+        "descripcionProyecto2":"Sistema responsivo de tablas dinámicas para mostrar datos de clientes desde JSON, desarrollado con HTML, CSS, JAVASCRIPT y conla ayuda de bootstrap y la biblioteca DATATABLE.",
+        "descripcionProyecto3":"Formulario de inicio de sesión responsivo desarrollado con HTML, CSS y Bootstrap, con posibilidad de ingresar a través de redes sociales como Google, Facebook o Twitter, contiene una opción para recordar nuestro usuario y contraseña.",
+        "descripcionProyecto4":"Tarjetas de precios ideales para describir la oportunidad de compra de un producto en las que tiene las descripciones y los diferentes planes.disponible para compra. Este sistema fue desarrollado con HTML, CSS y BOOTSTRAP.",
+        "butonRevisar":"Revisar",
+        "verMas":"Ver Mas",
+        "subir":"Ir arriba"
+    }
+}
