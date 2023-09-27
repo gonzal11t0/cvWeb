@@ -21,10 +21,12 @@
         "tituloProyecto2":"Dynamic table",
         "tituloProyecto3":"Login Form",
         "tituloProyecto4":"Pricing plans",
+        "tituloProyecto5":"login Animado",
         "descripcionProyecto1":"Responsive page developed with HTML, CSS and JAVASCRIPT with the intention of simulating a lottery platform, It includes a small guide to improve your chances of winning, and it also has a system to enter numbers and try to win by matching all the numbers..",
         "descripcionProyecto2":"Responsive dynamic table system to display customer data from JSON, developed with HTML, CSS, JAVASCRIPT and with the help of bootstrap and the DATATABLE library.",
         "descripcionProyecto3":"Responsive login form developed with HTML, CSS and Bootstrap, with the possibility of entering through social networkslike Google, Facebook or Twitter, it contains an option to remember our username and password",
         "descripcionProyecto4":"Price cards ideal to describe the purchase opportunity of a product in which it has the descriptions and the different plans available to purchase. This system was developed with HTML, CSS and BOOTSTRAP.",
+        "descripcionProyecto5":"This web project is a registration and authentication system designed to allow users to create and access secure online platforms, it completes successfully before looking at the data, an additional feature of this project is visual interaction with an animated makeover which occurs when the user enters the opposite field and confirms it. This animation can improve the user experience and make the recording process more visually appealing.",
         "butonRevisar":"Review",
         "verMas":"See more",
         "subir":"go up"

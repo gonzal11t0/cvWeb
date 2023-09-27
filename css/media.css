@@ -546,7 +546,7 @@
         font-size:1.4rem;
         font-family: serif;
     }
-    .proyecto1,.proyecto2,.proyecto3,.proyecto4{
+    .proyecto1,.proyecto2,.proyecto3,.proyecto4,.proyecto5{
         display: grid;
         grid-template-columns:auto;
         padding-top:50px;
@@ -596,6 +596,18 @@
         font-size:1.2rem;
     }
     .proyecto4 p{
+        font-size:0.8rem;
+        padding-left:2px;
+        float: right;
+    }
+    .proyect5 h1,p{
+        color: #ffff;
+        font-family: serif;
+    }
+    .proyecto5 h1{
+        font-size:1.2rem;
+    }
+    .proyecto5 p{
         font-size:0.8rem;
         padding-left:2px;
         float: right;
