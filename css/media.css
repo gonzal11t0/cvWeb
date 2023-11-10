@@ -333,9 +333,17 @@
         margin-left:15vh;
     }
 }
+@media screen and (max-width:236px) {
+    .header{
+        display:none;
+    }
+}
 @media (min-width:200px) and (max-width:400px) {
     body {
         overflow-x: hidden;
+    }
+    .headerItems {
+        font-size:0.5rem;
     }
     #section1{
         padding-top:30vh;

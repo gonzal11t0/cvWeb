@@ -1,5 +1,36 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    document.querySelectorAll('.headerItems a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                const scrollOffsetPercentage = 2;
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - (document.querySelector('.header').offsetHeight * (1 - scrollOffsetPercentage)),
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    const progressBar = document.getElementById('progress-bar');
+    const progressBarContainer = document.getElementById('progress-bar-container');
+
+    // Actualiza la barra de progreso basándose en la posición actual de desplazamiento
+    function updateProgressBar() {
+        const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        progressBar.style.width = `${scrollPercentage}%`;
+    }
+
+    // Llama a updateProgressBar cuando se desplaza la página
+    window.addEventListener('scroll', updateProgressBar);
+
+
     const text1 = document.getElementById('text1');
     const conocimientos = ["Developer FrontEnd", "ux ui designer"];
     let indiceConocimientos= 0;
@@ -93,22 +124,33 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     irArriba();
 
-    const flagsElement=document.getElementById('flags');
-    const textsToChange=document.querySelectorAll('[data-section]');
+    const flagsElement = document.getElementById('flags');
+    const textsToChange = document.querySelectorAll('[data-section]');
 
-    const changeLanguage=async (language)=>{
+    const changeLanguage = async (language) => {
+        const requestJson = await fetch(`./lenguaje/${language}.json`);
+        const texts = await requestJson.json();
 
-        const requestJson=await fetch(`./lenguaje/${language}.json`);
-        const texts=await requestJson.json();
-        for(const textToChange of  textsToChange){
+        for (const textToChange of textsToChange) {
+            const section = textToChange.dataset.section;
+            const value = textToChange.dataset.value;
 
-            const section=textToChange.dataset.section;
-            const value=textToChange.dataset.value;
+            // Verifica si la traducción está definida antes de asignarla
+            const translation = texts[section] && texts[section][value];
 
-            textToChange.innerHTML=texts[section][value];
-        };
-    }
-    flagsElement.addEventListener("click",  (e) => {
+            if (translation !== undefined) {
+                textToChange.innerHTML = translation;
+            } else {
+                // Si la traducción no está definida, puedes proporcionar un valor predeterminado o manejarlo de alguna manera
+                console.warn(`Traducción no definida para ${section}.${value}`);
+            }
+        }
+    };
+
+    // Llama a changeLanguage con el idioma predeterminado al cargar la página
+    changeLanguage('en');
+
+    flagsElement.addEventListener("click", (e) => {
         changeLanguage(e.target.parentElement.dataset.language);
     });
 });

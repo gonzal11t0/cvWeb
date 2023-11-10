@@ -1,5 +1,9 @@
 {
     "section1": {
+        "section1":"Inicio",
+        "section2":"Presentacion",
+        "section3":"Habilidades",
+        "section4":"Proyectos",
         "años": "22 Años",
         "añosEscribiendo": "2 Programando"
     },
