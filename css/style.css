@@ -306,7 +306,7 @@ body {
     font-size:1.8rem;
     font-family: serif;
 }
-.proyecto1,.proyecto2,.proyecto3,.proyecto4,.proyecto5,.proyecto6{
+.proyecto1,.proyecto2,.proyecto3,.proyecto4,.proyecto5,.proyecto6,.proyecto7,.proyecto8{
     display: grid;
     grid-template-columns:auto;
     padding-top:50px;
@@ -385,6 +385,32 @@ body {
     padding-left:2px;
     float: right;
 }
+.proyecto7 h1,p{
+    color: #ffff;
+    font-family: serif;
+}
+.proyecto7 h1{
+    font-size:2.2rem;
+    color: #ffff;
+}
+.proyecto7 p{
+    font-size:1.2rem;
+    padding-left:2px;
+    float: right;
+}
+.proyecto8 h1,p{
+    color: #ffff;
+    font-family: serif;
+}
+.proyecto8 h1{
+    font-size:2.2rem;
+    color: #ffff;
+}
+.proyecto8 p{
+    font-size:1.2rem;
+    padding-left:2px;
+    float: right;
+}
 .proyecto1 p:hover{
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -421,6 +447,20 @@ body {
     -o-transform: scale(1.1);
 }
 .proyecto6 p:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.proyecto7 p:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.proyecto8 p:hover{
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
