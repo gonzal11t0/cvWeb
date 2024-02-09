@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const buttonProyecto6=document.getElementById("buttonProyecto6");
         const buttonProyecto7=document.getElementById("buttonProyecto7");
         const buttonProyecto8=document.getElementById("buttonProyecto8");
+        const buttonProyecto9=document.getElementById("buttonProyecto9");
         const verMas=document.getElementById("verMas");
         buttonProyecto1.addEventListener('click', function(e) {
             window.location.href = "https://gonzal11t0.github.io/loteria/";
@@ -112,6 +113,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         buttonProyecto8.addEventListener('click', function(e) {
             window.location.href = "https://gonzal11t0.github.io/preguntas/";
+        });
+        buttonProyecto9.addEventListener('click', function(e) {
+            window.location.href = "https://gonzal11t0.github.io/Cotizaciones/#/Home";
         });
         verMas.addEventListener("click", function(e) {
             window.location.href = "https://github.com/gonzal11t0?tab=repositories";

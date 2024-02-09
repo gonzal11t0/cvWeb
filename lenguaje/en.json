@@ -29,6 +29,7 @@
         "tituloProyecto6":"Sports page",
         "tituloProyecto7":"BILLS",
         "tituloProyecto8":"Questions",
+        "tituloProyecto9":"Quotes",
         "descripcionProyecto1":"Responsive page developed with HTML, CSS and JAVASCRIPT with the intention of simulating a lottery platform, It includes a small guide to improve your chances of winning, and it also has a system to enter numbers and try to win by matching all the numbers..",
         "descripcionProyecto2":"Responsive dynamic table system to display customer data from JSON, developed with HTML, CSS, JAVASCRIPT and with the help of bootstrap and the DATATABLE library.",
         "descripcionProyecto3":"Responsive login form developed with HTML, CSS and Bootstrap, with the possibility of entering through social networkslike Google, Facebook or Twitter, it contains an option to remember our username and password",
@@ -37,6 +38,7 @@
         "descripcionProyecto6":"Responsive sports page, developed with HTML5, CSS3, BOOTSTRAP, JAVASCRIPT and DataTable, the intention is to replicate the main news and results of the different disciplines of said institution.",
         "descripcionProyecto7":"React project to record data with name unit price and total price.",
         "descripcionProyecto8":"react project to simulate a game with multiple choice questions and a point counter",
+        "descripcionProyecto9":"Page developed with React to see dollar quotes nationwide, in turn each type of dollar, like other currencies, has a special menu with a currency calculator.",
         "butonRevisar":"Review",
         "verMas":"See more",
         "subir":"go up"
