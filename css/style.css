@@ -36,7 +36,6 @@ body {
     background-color: #4caf50;
     box-shadow: 5px 5px 5px #0c1b0d;
 }
-
 .headerItems a {
     margin: 0 30px;
     text-decoration: none;
@@ -44,14 +43,13 @@ body {
     cursor: pointer;
     font-size:1.3rem;
 }
-
 .flags{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width:80px;
-    left: 93vw !important;
+    left:85vw !important;
 }
 .flags__Items{
     width:50px;
@@ -62,7 +60,7 @@ body {
     margin-left:10px;
 }
 #section1{
-    padding-top:20vh;
+    padding-top:30vh;
     background: #0f0c29;
     background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  
     background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);

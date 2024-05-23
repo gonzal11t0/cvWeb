@@ -1,6 +1,14 @@
-@media (min-width:401px)and (max-width:800px) {
+@media  (max-width:800px) {
     body {
         overflow-x: hidden;
+    }
+    .headerItems a {
+        margin: 0 20px;
+        font-size:0.9rem;
+    }
+    .flags{
+        margin-bottom: 5vh;
+        left:78vw !important;
     }
     #section1{
         padding-top:30vh;
@@ -369,20 +377,21 @@
         margin-left:15vh;
     }
 }
-@media screen and (max-width:236px) {
-    .header{
-        display:none;
-    }
-}
+
 @media (min-width:200px) and (max-width:400px) {
     body {
         overflow-x: hidden;
     }
-    .headerItems {
-        font-size:0.5rem;
+    .headerItems a {
+        font-size:0.6rem !important;
+        margin: 0 20px !important;
+    }
+    .flags{
+        margin-bottom: 5vh;
+        left:30vw !important;
     }
     #section1{
-        padding-top:30vh;
+        padding-top:30vh !important;
         background: #0f0c29;
         background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  
         background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
@@ -736,4 +745,21 @@
         margin-bottom:100px;
         margin-left:7vh;
     }
+}
+
+@media (max-width: 300px){
+    .headerItems{
+        display: none !important;
+    }
+    .flags{
+        margin-bottom: 5vh;
+        left:30vw !important;
+    }
+    .proyecto1 p:hover{
+        transform: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+}
 }
