@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="PostulAR: evaluador y gestor personal de búsqueda laboral.">
+  <meta name="theme-color" content="#13251e">
+  <meta property="og:title" content="PostulAR | Centro de búsqueda laboral">
+  <meta property="og:description" content="Evaluá ofertas y organizá tus postulaciones.">
+  <link rel="stylesheet" href="./styles.css">
+  <title>PostulAR | Centro de búsqueda laboral</title>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><b>P</b><span><strong>PostulAR</strong><small>Centro de búsqueda laboral</small></span></a>
+  <nav aria-label="Secciones">
+    <button class="active" data-tab="evaluate">Evaluar oferta</button>
+    <button data-tab="track">Seguimiento <i id="navCount">0</i></button>
+  </nav>
+</header>
+
+<main>
+  <section class="wrap tab active" id="evaluate">
+    <div class="title"><p>Decisión rápida y razonada</p><h1>¿Conviene postular?</h1><span>Pegá una oferta y comparala con tus prioridades laborales.</span></div>
+    <div class="privacy">● Datos privados en este dispositivo</div>
+    <div class="grid">
+      <form class="card form" id="evaluationForm">
+        <div class="fields">
+          <label>Empresa<input id="company" placeholder="Ej. Empresa SA"></label>
+          <label>Puesto<input id="role" placeholder="Ej. Soporte técnico Jr."></label>
+          <label>Plataforma<select id="platform"><option>LinkedIn</option><option>Computrabajo</option><option>Bumeran</option><option>ZonaJobs</option><option>InfoJobs</option><option>EducaciónIT</option><option>Otra</option></select></label>
+          <label>Modalidad<select id="mode"><option>No informada</option><option>Remoto</option><option>Híbrido</option><option>Presencial</option></select></label>
+          <label>Ubicación<input id="location" placeholder="Localidad / provincia"></label>
+          <label>Sueldo informado<input id="salary" placeholder="Ej. $900.000"></label>
+        </div>
+        <label>Enlace de la oferta<input id="url" type="url" placeholder="https://..."></label>
+        <label>Descripción completa<textarea id="description" rows="11" placeholder="Pegá acá el aviso completo..." required></textarea></label>
+        <button class="primary" type="submit">Analizar oferta <span>→</span></button>
+      </form>
+
+      <aside class="card result" id="result">
+        <div class="empty">
+          <div>◎</div><h2>Tu evaluación aparecerá acá</h2>
+          <p>Compara requisitos, modalidad, experiencia, sueldo y tipo de puesto.</p>
+          <ul><li>Perfil IT y administrativo</li><li>Hasta 1 hora desde San Miguel</li><li>Sin fines de semana</li><li>Objetivo superior a $800.000</li></ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap tab" id="track">
+    <div class="heading">
+      <div class="title"><p>Organización personal</p><h1>Seguimiento</h1><span>Centralizá ofertas y próximos pasos.</span></div>
+      <button class="primary short" id="newJob">+ Nueva oferta</button>
+    </div>
+    <div class="stats">
+      <article class="card stat"><strong id="totalStat">0</strong><span>Ofertas guardadas</span></article>
+      <article class="card stat"><strong id="appliedStat">0</strong><span>Postulaciones</span></article>
+      <article class="card stat"><strong id="interviewStat">0</strong><span>Entrevistas</span></article>
+      <article class="card stat"><strong id="recommendedStat">0</strong><span>Recomendadas</span></article>
+    </div>
+    <div class="card tools">
+      <input id="search" placeholder="Buscar empresa o puesto..." aria-label="Buscar">
+      <select id="statusFilter" aria-label="Filtrar por estado"><option>Todos</option><option>Pendiente</option><option>Postulado</option><option>Entrevista</option><option>Rechazado</option><option>Contratado</option></select>
+      <button id="exportCsv">CSV</button><button id="exportJson">Respaldo</button>
+      <label>Importar<input id="importJson" type="file" accept=".json"></label>
+    </div>
+    <div class="jobs" id="jobList"></div>
+  </section>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<footer>PostulAR · Tus datos quedan en este dispositivo · <a href="../">Portfolio</a></footer>
+<script src="./app.js"></script>
+</body>
+</html>
