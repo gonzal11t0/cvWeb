@@ -1,224 +1,200 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <head>
-        <base href="">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="language" content="es">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
-        <meta name="distribution" content="global">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="title" content="Gonzalo Lazarte | PORTFOLIO WEB DEVELOPER">
-        <title>PORTFOLIO WEB</title>
-        <meta name="robots" content="all">
-        <meta name="googlebot" content="all">
-        <meta name="googlebot-news" content="all">
-        <meta name="url" content="https://gonzal11t0.github.io/cvWeb/">
-        <meta name="identifier-URL" content="https://gonzal11t0.github.io/cvWeb/">
-        <meta name="designer" content="Gonzalo Lazarte">
-        <meta name="copyright" content="Gonzalo Lazarte">
-        <meta name="reply-to" content="Gonzalo-Lazarte-Programador@outlook.com">
-        <link rel="canonical" href="https://gonzal11t0.github.io/cvWeb/">
-        <!-- Metadatos Open Graph para Facebook y otras redes sociales -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://gonzal11t0.github.io/cvWeb/">
-        <meta property="og:title" content="Gonzalo Lazarte | PORTFOLIO WEB DEVELOPER">
-        <meta property="og:description" content="Página web diseñada para demostrar mis habilidades">
-        <meta property="og:image" content="./img/vistaPrevia.png">
-        <meta property="og:image:width" content="600">
-        <meta property="og:image:height" content="500">
-        <meta name="publisher" content="Gonzalo Lazarte, Gonzalo Lazarte">
-        <meta name="keywords" content="Página, Web, Buenos Aires, Argentina, frontEnd, front, end, programador, developer">
-        <link rel="shortcut icon" href="./img/foto_curriculum.jpg">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <meta name="description" content="Gonzalo Lazarte desarrollador web frontend/trainee">
-        <meta name="author" content="Gonzalo Lazarte, Gonzalo-Lazarte-Programador@outlook.com">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/media.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Gonzalo Lazarte, desarrollador de software y estudiante de Licenciatura en Sistemas.">
+  <meta name="author" content="Gonzalo Lazarte">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gonzal11t0.github.io/cvWeb/">
+  <meta property="og:title" content="Gonzalo Lazarte | Portfolio">
+  <meta property="og:description" content="Desarrollo aplicaciones web para resolver problemas reales.">
+  <meta property="og:image" content="https://gonzal11t0.github.io/cvWeb/img/vistaPrevia.png">
+  <link rel="canonical" href="https://gonzal11t0.github.io/cvWeb/">
+  <link rel="icon" href="./img/foto_curriculum.jpg">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Gonzalo Lazarte | Desarrollador de software</title>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHF2DK987Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WHF2DK987Y');
-</script>
 <body>
-    <main>
-        <section id="section1">
-            <div id="progress-bar-container">
-                <div id="progress-bar"></div>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">GL<span>.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Abrir menú</span>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a class="nav-contact" href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Desarrollador de software · Buenos Aires, Argentina</p>
+        <h1>Construyo soluciones digitales para <span>problemas reales.</span></h1>
+        <p class="hero-text">Soy Gonzalo Lazarte, estudiante de Licenciatura en Sistemas en la UNGS. Desarrollo aplicaciones web, paneles de datos y herramientas orientadas a mejorar procesos.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Ver proyectos</a>
+          <a class="button secondary" href="mailto:Gonzalo-Lazarte-Programador@outlook.com">Contactarme</a>
+        </div>
+        <div class="social-links" aria-label="Perfiles profesionales">
+          <a href="https://www.linkedin.com/in/gonzalo-lazarte/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/gonzal11t0" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Fotografía de Gonzalo Lazarte">
+        <div class="photo-frame">
+          <img src="./img/foto curriculum.jpg" alt="Gonzalo Lazarte" width="420" height="420">
+        </div>
+        <div class="availability"><span></span> Abierto a oportunidades IT</div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="container about-grid">
+        <div>
+          <p class="section-label">Sobre mí</p>
+          <h2>Aprender, construir y mejorar continuamente.</h2>
+        </div>
+        <div class="about-copy">
+          <p>Combino mi formación universitaria con experiencia práctica desarrollando productos propios. Me interesa crear interfaces claras, sistemas confiables y soluciones que puedan utilizarse en situaciones reales.</p>
+          <p>Trabajo principalmente con React, JavaScript, Python, Flask y bases de datos SQL. También cuento con conocimientos de soporte técnico, diagnóstico de problemas y fundamentos de ciberseguridad.</p>
+          <div class="quick-facts">
+            <div><strong>UNGS</strong><span>Licenciatura en Sistemas</span></div>
+            <div><strong>Full stack</strong><span>Frontend, APIs y datos</span></div>
+            <div><strong>Objetivo</strong><span>Primera experiencia profesional IT</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="proyectos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Trabajo seleccionado</p>
+            <h2>Proyectos destacados</h2>
+          </div>
+          <a href="https://github.com/gonzal11t0?tab=repositories" target="_blank" rel="noopener noreferrer">Ver todos en GitHub ↗</a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Análisis deportivo · Aplicación web</p>
+              <h3>VoleyInsight</h3>
+              <p>Sistema de análisis de voleibol en tiempo real para clubes y cuerpos técnicos. Integra datos de partidos, anotación manual, estadísticas, reportes y funcionamiento sin conexión.</p>
+              <ul class="tags" aria-label="Tecnologías utilizadas">
+                <li>JavaScript</li><li>API REST</li><li>IndexedDB</li><li>PWA</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/gonzal11t0/VoleyInsight" target="_blank" rel="noopener noreferrer">Ver repositorio ↗</a>
+              </div>
             </div>
-            <div id="header" class="header" role="heading">
-                <div class="headerItems">
-                    <a data-section="section1" data-value="section1" data-translate="section1" href="#section1">Inicio</a>
-                    <a data-section="section1" data-value="section2" data-translate="section2" href="#section2">Presentacion</a>
-                    <a data-section="section1" data-value="section3" data-translate="section3" href="#section3">Habilidades</a>
-                    <a data-section="section1" data-value="section4" data-translate="section4" href="#section4">Proyectos</a>
-                </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Finanzas · Dashboard</p>
+              <h3>Trading Desk Pro</h3>
+              <p>Panel financiero moderno para organizar información de mercado y hacer seguimiento de activos mediante una interfaz modular y adaptable.</p>
+              <ul class="tags" aria-label="Tecnologías utilizadas">
+                <li>React</li><li>Vite</li><li>TanStack Query</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/gonzal11t0/trading-desk-pro" target="_blank" rel="noopener noreferrer">Ver repositorio ↗</a>
+              </div>
             </div>
-            <div id="flags" class="flags">
-                <div class="flags__Items" data-language="es">
-                    <img data-language="es" class="flags__img" src="./img/es.svg" alt="es">
-                </div>
-                <div class="flags__Items" data-language="en">
-                    <img data-language="en" class="flags__img" src="./img/en.svg" alt="en">
-                </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">Datos financieros · React</p>
+              <h3>Cotizaciones</h3>
+              <p>Aplicación para consultar cotizaciones del dólar y otras monedas, con vistas específicas y calculadora de conversión.</p>
+              <ul class="tags" aria-label="Tecnologías utilizadas">
+                <li>React</li><li>API</li><li>Responsive</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/gonzal11t0/Cotizaciones" target="_blank" rel="noopener noreferrer">Ver repositorio ↗</a>
+              </div>
             </div>
-            <div class="contenedor">
-                <div role="presentation" aria-label="First section of the personal portFolio with my age 22 years and 2 years programming.
-                It also includes links to my social networks: Linkedin, CV, GitHub" class="containerInfo">
-                    <div class="infoPrincipal animate__animated animate__bounce"  data-aos="fade-up"data-aos-easing="linear"data-aos-duration="1100">
-                        <h1>Gonzalo Lazarte<br> I'm a <span id="text1"></h1>
-                    </div>
-                    <div class="infoSecundaria" data-aos="fade-up"data-aos-easing="linear"data-aos-duration="1300">
-                        <span data-section="section1" data-value="años" data-translate="infoSecundaria">22 <br>Years</span>
-                        <span data-section="section1" data-value="añosEscribiendo" data-translate="infoSecundaria">2 <br>Years Coding</span>
-                    </div>
-                    <div class="contacto"  data-aos="fade-up"data-aos-easing="linear"data-aos-duration="1500">
-                        <a data-translate="linkedin" href="https://www.linkedin.com/in/gonzalo-lazarte-desarrollador-web/" title="My Linkedin profile"  target="_blank" rel="noreferer"><box-icon  name='linkedin-square' type='logo' color='#ffffff' ></box-icon></a>
-                        <a data-translate="github" href="https://github.com/gonzal11t0?tab=repositories" title="My Git Hub profile"   target="_blank" rel="noreferer"><box-icon  name='github' type='logo' color='#ffffff' ></box-icon></a>
-                        <a data-translate="cv" href="https://www.canva.com/design/DAFohH2zXuU/Gmm_PbUYEGL2TTw_xDcY5A/edit" title="My CV"target="_blank" rel="noreferer"><box-icon  name='file-doc' type='solid' color='#ffffff' ></box-icon></a>
-                    </div>
-                </div>
-                <div class="containerImagen" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="2000">
-                    <div class="imagen">
-                        <img width="300" height="300" src="./img/foto curriculum.jpg">
-                    </div>
-                </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-content">
+              <p class="project-type">Gestión · Aplicación web</p>
+              <h3>Control de gastos</h3>
+              <p>Herramienta creada para registrar y organizar gastos, aplicando componentes reutilizables y gestión de información.</p>
+              <ul class="tags" aria-label="Tecnologías utilizadas">
+                <li>React</li><li>JavaScript</li><li>CSS</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/gonzal11t0/Gastos" target="_blank" rel="noopener noreferrer">Ver repositorio ↗</a>
+              </div>
             </div>
-        </section>
-        <section id="section2">
-            <div class="contenedor"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"data-aos-duration="1100">
-                <div role="article" aria-label="Presentation of what I am currently studying, Lic. in Systems, UX Experience and Web Developer" class="miPresente">
-                    <h1 data-section="section2" data-value="miPresente" class="tituloMiPresente">My present</h1>
-                    <span data-section="section2" data-value="haciendoEsto">I am currently doing this!</span>
-                </div>
-                <div class="presenteActual ">
-                    <div class="presente1">
-                        <h2 data-section="section2" data-value="Estudiando">Studying.</h2>
-                        <p data-section="section2"  data-value="parrafoEstudiando1">I am studying the 3rd year of the Bachelor's Degree in Systems carried out at the General Sarmiento University.</p>
-                        <a data-section="section2"  data-value="botonVerMas" href="https://www.ungs.edu.ar/carrera/licenciatura-en-sistemas" target="_blank" class="circle-link">Know me</a>
-                    </div>
-                    <div class="presente2">
-                        <h2  data-section="section2" data-value="Estudiando">Studying.</h2>
-                        <p data-section="section2"   data-value="parrafoEstudiando2">I am currently taking a UX course for the company Google in which I have an average of 8.8.</p>
-                        <a data-section="section2"   data-value="botonVerMas" href="https://coursera.org/share/3b506be0ce8129fe2104ec37e668ecd1" target="_blank" class="circle-link">Know me</a>
-                    </div>
-                    <div class="presente3">
-                        <h2  data-section="section2" data-value="Estudiando">Studying.</h2>
-                        <p data-section="section2"   data-value="parrafoEstudiando3">One of my main hobbies and goals is to practice FrontEnd web development.</p>
-                        <a data-section="section2"   data-value="botonVerMas" href="https://github.com/gonzal11t0?tab=repositories" target="_blank" class="circle-link">Know me</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section3">
-            <div role="article" aria-label="Presentation of my main tools that I use" class="contenedor">
-                <div class="containerConocimientos"data-aos="zoom-in-right"data-aos-easing="linear"data-aos-duration="1800">
-                    <h1 data-section="section3" data-value="tituloHabilidades" class="tituloConocimientos">skills</h1><br>
-                    <ul id="ul" class="listaConocimientos">
-                        <li>HTML 5</li><br>
-                        <li>CSS 3</li><br>
-                        <li>Bootstrap</li><br>
-                        <li>JAVASCRIPT</li><br>
-                        <li>REACT</li><br>
-                        <li>JQUERY</li><br>
-                        <li>DATATABLE</li><br>
-                        <li>CHATGPT</li><br>
-                        <li>MYSQL</li><br>
-                        <li>PYTHON</li><br>
-                        <li>JSON</li><br>
-                        <li>EXCEL</li><br>
-                        <li>WORD</li><br>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="section4">
-            <div class="contenedor">
-                <div role="article" aria-label="Presentation of the projects carried out along with their description and their corresponding link" class="containerProyectos"data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
-                    <div class="proyectos">
-                        <div class="proyectosInfo">
-                            <h1 data-section="section4" data-value="tituloMisUltimosProyectos" class="tituloProyectosInfo">MY LATEST PROJECTS</h1>
-                        </div>
-                        <div class="proyecto9">
-                            <h1 data-section="section4" data-value="tituloProyecto9">Quotes</h1>
-                            <p data-section="section4" data-value="descripcionProyecto9">Page developed with React to see dollar quotes nationwide, in turn each type of dollar, like other currencies, has a special menu with a currency calculator.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto9" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto8">
-                            <h1 data-section="section4" data-value="tituloProyecto8">Questions</h1>
-                            <p data-section="section4" data-value="descripcionProyecto8">react project to simulate a game with multiple choice questions and a point counter.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto8" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto7">
-                            <h1 data-section="section4" data-value="tituloProyecto7">BILLS</h1>
-                            <p data-section="section4" data-value="descripcionProyecto7">React project to record data with name unit price and total price.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto7" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto6">
-                            <h1 data-section="section4" data-value="tituloProyecto6">Sports page</h1>
-                            <p data-section="section4" data-value="descripcionProyecto6">Responsive sports page, developed with HTML5, CSS3, BOOTSTRAP, JAVASCRIPT and DataTable, the intention is to replicate the main news and results of the different disciplines of said institution.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto6" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto1">
-                            <h1 data-section="section4" data-value="tituloProyecto1">Lottery</h1>
-                            <p data-section="section4" data-value="descripcionProyecto1">Responsive page developed with HTML, CSS and JAVASCRIPT with the intention of simulating a lottery platform,
-                                It includes a small guide to improve your chances of winning, and it also has a system
-                                to enter numbers and try to win by matching all the numbers.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto1" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto2">
-                            <h1 data-section="section4" data-value="tituloProyecto2">Dynamic table</h1>
-                            <p data-section="section4" data-value="descripcionProyecto2">Responsive dynamic table system to display customer data from JSON, developed with HTML, CSS, JAVASCRIPT and with
-                                the help of bootstrap and the DATATABLE library.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto2" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto3">
-                            <h1 data-section="section4" data-value="tituloProyecto3">Login Form</h1>
-                            <p data-section="section4" data-value="descripcionProyecto3">Responsive login form developed with HTML, CSS and Bootstrap, with the possibility of entering through social networks
-                                like Google, Facebook or Twitter, it contains an option to remember our username and password</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto3" class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto4">
-                            <h1 data-section="section4" data-value="tituloProyecto4">Pricing plans</h1>
-                            <p data-section="section4" data-value="descripcionProyecto4">Price cards ideal to describe the purchase opportunity of a product in which it has the descriptions and the different plans
-                                available to purchase. This system was developed with HTML, CSS and BOOTSTRAP.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto4"  class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <div class="proyecto5">
-                            <h1 data-section="section4" data-value="tituloProyecto5">Sign in animated</h1>
-                            <p data-section="section4" data-value="descripcionProyecto5">This web project is a registration and authentication system designed to allow users to create and access secure online platforms, 
-                                it completes successfully before looking at the data, an additional feature of this project is visual interaction with an animated makeover which occurs when the user enters the opposite 
-                                field and confirms it. This animation can improve the user experience and make the recording process more visually appealing.</p>
-                            <button data-section="section4" data-value="butonRevisar" id="buttonProyecto5"  class="btn btn-outline-success" type="button">Review</button>
-                        </div>
-                        <button data-section="section4" data-value="verMas" id="verMas"type="button" class="verMas btn btn-danger">See more</button>
-                        <button data-section="section4" data-value="subir" id="irArriba"type="button" class="irArriba btn btn-danger">go up</button>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script type="text/javascript" src="./javaScript/script.js"></script>
-    
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="tecnologias">
+      <div class="container">
+        <p class="section-label">Herramientas</p>
+        <h2>Tecnologías con las que trabajo</h2>
+        <div class="skills-grid">
+          <article>
+            <span>01</span><h3>Frontend</h3>
+            <p>HTML5 · CSS3 · JavaScript · React · Bootstrap · Sass · MUI · Styled Components</p>
+          </article>
+          <article>
+            <span>02</span><h3>Backend y datos</h3>
+            <p>Python · Flask · Node.js · APIs REST · JSON · SQLite · MySQL</p>
+          </article>
+          <article>
+            <span>03</span><h3>Herramientas</h3>
+            <p>Git · GitHub · Vite · ESLint · Figma · Linux · Excel</p>
+          </article>
+          <article>
+            <span>04</span><h3>Otros conocimientos</h3>
+            <p>Soporte IT · Diagnóstico técnico · Ciberseguridad · Diseño responsive · Accesibilidad</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="container contact-card">
+        <p class="section-label">Contacto</p>
+        <h2>¿Tenés una oportunidad o un proyecto en mente?</h2>
+        <p>Estoy abierto a posiciones junior de desarrollo, frontend, soporte IT y help desk.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:Gonzalo-Lazarte-Programador@outlook.com">Enviar un email</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/gonzalo-lazarte/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Gonzalo Lazarte</p>
+      <p>Diseñado y desarrollado por mí.</p>
+    </div>
+  </footer>
+
+  <script src="./javaScript/script.js"></script>
 </body>
 </html>
